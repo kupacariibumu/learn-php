@@ -1,0 +1,19 @@
+{
+    "name": "kupacariibumu/learn-php",
+    "description": "Hanya untuk mejalankan program php mengunakan composer",
+    "autoload": {
+        "psr-4": {
+            "Kupacariibumu\\LearnPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "kupacariibumu",
+            "email": "kupacariibumu@gmail.com"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "server": "php -S localhost:8000 router.php"
+    }
+}
